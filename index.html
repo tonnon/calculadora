@@ -1,0 +1,287 @@
+<DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Calculadora</title>
+<link rel="stylesheet" type="text/css" href="css/estilo.css">
+<link rel="shortcut icon" href="./images/logo.jpg" type="image/jpg" />
+</head>
+<body>
+	<section id="principal" class="">
+		<!-- EXERCICIO 01 -->
+		<article class="caixa">
+			<div class="conteudoCaixa">
+				<h1>Exercício 01</h1>
+				<p>Entrar via teclado com a base e a altura de um retângulo, calcular e exibir sua área. </p>
+				<table border="0" align="center">
+				<tr>
+					<td class="col1_1">Base:</td>
+					<td><input type="text" name="e1_txtBase" id="e1_txtBase"></td>
+				</tr>
+				<tr>
+					<td>Altura:</td>
+					<td><input type="text" name="e1_txtAltura" id="e1_txtAltura"></td>
+				</tr>
+				<tr>
+					<td colspan="2" class="direita">
+						<input type="button" value="Calcular" onclick="calcular_ex1(e1_txtBase,e1_txtAltura)">
+						
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2" class="centro">
+						<span id="e1_lblResultado">&nbsp;</span>
+					</td>
+				</tr>
+				</table>
+			</div>
+		</article>
+		
+
+		<!-- EXERCICIO 02 -->
+		<article class="caixa">
+			<div class="conteudoCaixa">
+				<h1>Exercício 02</h1>
+				<p>Calcular e exibir a área de um quadrado, a partir do valor de sua aresta que será digitado.  </p>
+				<table border="0" align="center">
+				<tr>
+					<td class="col1_1">Aresta:</td>
+					<td><input type="text" name="e2_txtAresta" id="e2_txtAresta"></td>
+				</tr>
+				<tr>
+					<td colspan="2" class="direita">
+						<input type="button" value="Calcular" onclick="calcular_ex2(e2_txtAresta)">
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2" class="centro">
+						<span id="e2_lblResultado">&nbsp;</span>
+					</td>
+				</tr>
+				</table>
+			</div>
+		</article>
+		
+
+		<!-- EXERCICIO 03 -->
+		<article class="caixa">
+			<div class="conteudoCaixa">
+				<h1>Exercício 03</h1>
+				<p>Calcular e exibir a área de um quadrado a partir do valor de sua diagonal que será digitado.  </p>
+				<table border="0" align="center">
+				<tr>
+					<td class="col1_1">Diagonal:</td>
+					<td><input type="text" name="e3_txtDiagonal" id="e3_txtDiagonal"></td>
+				</tr>
+				<tr>
+					<td colspan="2" class="direita">
+						<input type="button" value="Calcular" onclick="calcular_ex3(e3_txtDiagonal)">
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2" class="centro">
+						<span id="e3_lblResultado">&nbsp;</span>
+					</td>
+				</tr>
+				</table>
+			</div>
+		</article>
+
+		<!-- EXERCICIO 04 -->
+		<article class="caixa">
+			<div class="conteudoCaixa">
+				<h1>Exercício 04</h1>
+				<p>A partir dos valores da base e altura de um triângulo, calcular e exibir sua área.  </p>
+				<table border="0" align="center">
+				<tr>
+					<td class="col1_1">Base:</td>
+					<td><input type="text" name="e4_txtBase" id="e4_txtBase"></td>
+				</tr>
+				<tr>
+					<td>Altura:</td>
+					<td><input type="text" name="e4_txtAltura" id="e4_txtAltura"></td>
+				</tr>
+				<tr>
+					<td colspan="2" class="direita">
+						<input type="button" value="Calcular" onclick="e4_calcular(e4_txtBase, e4_txtAltura)">
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2" class="centro">
+						<span id="e4_lblResultado">&nbsp;</span>
+					</td>
+				</tr>
+				</table>
+			</div>
+		</article>
+		
+		<!-- EXERCICIO 05 -->
+		<article class="caixa">
+			<div class="conteudoCaixa">
+				<h1>Exercício 05</h1>
+				<p>Calcular e exibir o volume de uma esfera a partir do valor de seu diâmetro que será digitado. </p>
+				<table border="0" align="center">
+				<tr>
+					<td class="col1_1">Diâmetro:</td>
+					<td><input type="text" name="e5_txtDiametro" id="e5_txtDiametro"></td>
+				</tr>
+				<tr>
+					<td colspan="2" class="direita">
+						<input type="button" value="Calcular" onclick="calcular_ex5(e5_txtDiametro)">
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2" class="centro">
+						<span id="e5_lblResultado">&nbsp;</span>
+					</td>
+				</tr>
+				</table>
+			</div>
+		</article>
+		
+		<!-- EXERCICIO 06 -->
+		<article class="caixa">
+			<div class="conteudoCaixa">
+				<h1>Exercício 06</h1>
+				<p>Calcular e exibir a média aritmética de quatro valores quaisquer que serão digitados.  </p>
+				<table border="0" align="center">
+				<tr>
+					<td class="col1_1">Valor 1:</td>
+					<td><input type="text" name="e6_txtv1" id="e6_txtv1"></td>
+				</tr>
+				<tr>
+					<td>Valor 2:</td>
+					<td><input type="text" name="e6_txtv2" id="e6_txtv2"></td>
+				</tr>
+				<tr>
+					<td>Valor 3:</td>
+					<td><input type="text" name="e6_txtv3" id="e6_txtv3"></td>
+				</tr>
+				<tr>
+					<td>Valor 4:</td>
+					<td><input type="text" name="e6_txtv4" id="e6_txtv4"></td>
+				</tr>
+				<tr>
+					<td colspan="2" class="direita">
+						<input type="submit" value="Calcular" onclick="calcular_ex6(e6_txtv1, e6_txtv2, e6_txtv3, e6_txtv4)">
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2" class="centro">
+						<span id="e6_lblResultado">&nbsp;</span>
+					</td>
+				</tr>
+				</table>
+			</div>
+		</article>
+		
+		<!-- EXERCICIO 07 -->
+		<article class="caixa">
+			<div class="conteudoCaixa">
+				<h1>Exercício 07</h1>
+				<p>Calcular e exibir a média geométrica de dois valores quaisquer que serão digitados.</p>
+				<table border="0" align="center">
+				<tr>
+					<td class="col1_1">Valor 1:</td>
+					<td><input type="text" name="e7_txtv1" id="e7_txtv1"></td>
+				</tr>
+				<tr>
+					<td>Valor 2:</td>
+					<td><input type="text" name="e7_txtv2" id="e7_txtv2"></td>
+				</tr>
+				<tr>
+					<td colspan="2" class="direita">
+						<input type="button" value="Calcular" onclick="calcular_ex7(e7_txtv1, e7_txtv2)">
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2" class="centro">
+						<span id="e7_lblResultado">&nbsp;</span>
+					</td>
+				</tr>
+				</table>
+			</div>
+		</article>
+		
+		<!-- EXERCICIO 08 -->
+		<article class="caixa">
+			<div class="conteudoCaixa">
+				<h1>Exercício 08</h1>
+				<p>Sabendo que uma milha marítima equivale a um mil, oitocentos e cinqüenta e dois metros e que um quilômetro possui mil metros, fazer um programa para converter milhas marítimas em quilômetros. </p>
+				<table border="0" align="center">
+				<tr>
+					<td class="col1_1">Milhas:</td>
+					<td><input type="text" name="e8_txtMilhas" id="e8_txtMilhas"></td>
+				</tr>
+				<tr>
+					<td colspan="2" class="direita">
+						<input type="button" value="Calcular" onclick="calcular_ex8(e8_txtMilhas)">
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2" class="centro">
+						<span id="e8_lblResultado">&nbsp;</span>
+					</td>
+				</tr>
+				</table>
+			</div>
+		</article>
+		
+		<!-- EXERCICIO 09 -->
+		<article class="caixa">
+			<div class="conteudoCaixa">
+				<h1>Exercício 09</h1>
+				<p> Calcular e exibir a tensão de um determinado circuito eletrônico a partir dos valores da resistência e corrente elétrica que serão digitados. Utilize a lei de Ohm. </p>
+				<table border="0" align="center">
+				<tr>
+					<td class="col1_1">Resistência:</td>
+					<td><input type="text" name="e9_txtResistencia" id="e9_txtResistencia"></td>
+				</tr>
+				<tr>
+					<td>Corrente:</td>
+					<td><input type="text" name="e9_txtCorrente" id="e9_txtCorrente"></td>
+				</tr>
+				<tr>
+					<td colspan="2" class="direita">
+						<input type="button" value="Calcular" onclick="calcular_ex9(e9_txtResistencia, e9_txtCorrente)">
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2" class="centro">
+						<span id="e9_lblResultado">&nbsp;</span>
+					</td>
+				</tr>
+				</table>
+			</div>
+		</article>
+		
+		<!-- EXERCICIO 10 -->
+		<article class="caixa">
+			<div class="conteudoCaixa">
+				<h1>Exercício 10</h1>
+				<p>Entrar via teclado com o valor de uma temperatura em graus Celsius, calcular e exibir sua temperatura equivalente em Fahrenheit. </p>
+				<table border="0" align="center">
+				<tr>
+					<td class="col1_1">Celsius:</td>
+					<td><input type="text" name="e10_txtCelcius" id="e10_txtCelsius"></td>
+				</tr>
+				<tr>
+					<td colspan="2" class="direita">
+						<input type="button" value="Calcular" onclick="calcular_ex10(e10_txtCelsius)">
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2" class="centro">
+						<span id="e10_lblResultado">&nbsp;</span>
+					</td>
+				</tr>
+				</table>
+			</div>
+		</article>
+
+		<div class="limpa"></div>
+	</section>
+<script src='https://threejs.org/build/three.min.js'></script>
+<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
